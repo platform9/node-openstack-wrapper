@@ -302,10 +302,10 @@ OSWrap.getSimpleProject('username', 'password', 'project_id', 'keystone_url', fu
 * new Heat(v1_public_url, project_token_value)
 * setTimeout(timeout_milliseconds)
 * **Stacks**
-  * listStacks(options_obj, callback)
-  * createStack(stack_name, options_obj, callback)
-  * updateStack(stack_name, stack_id, options_obj, callback)
-  * deleteStack(stack_name, stack_id, callback)
+  * listStacks(options_obj, cb(error, result_obj))
+  * createStack(stack_name, options_obj, cb(error, result_obj))
+  * updateStack(stack_name, stack_id, options_obj, cb(error, result_obj))
+  * deleteStack(stack_name, stack_id, cb(error, result_obj))
 
 
 ## Running Tests
