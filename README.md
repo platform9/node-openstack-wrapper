@@ -301,10 +301,11 @@ OSWrap.getSimpleProject('username', 'password', 'project_id', 'keystone_url', fu
 ### Heat (aka Orchestration)
 * new Heat(v1_public_url, project_token_value)
 * setTimeout(timeout_milliseconds)
-* listStacks(filters, callback)
-* createStack(stack_name, options, callback)
-* updateStack(stack_name, stack_id, options, callback)
-* deleteStack(stack_name, stack_id, callback)
+* **Stacks**
+  * listStacks(options_obj, callback)
+  * createStack(stack_name, options_obj, callback)
+  * updateStack(stack_name, stack_id, options_obj, callback)
+  * deleteStack(stack_name, stack_id, callback)
 
 
 ## Running Tests
