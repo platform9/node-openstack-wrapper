@@ -298,6 +298,14 @@ OSWrap.getSimpleProject('username', 'password', 'project_id', 'keystone_url', fu
   * updateLBPoolMember(pool_id, member_id, options_obj, cb(error, result_obj))
   * removeLBPoolMember(pool_id, member_id, cb(error))
 
+### Heat (aka Orchestration)
+* new Heat(v1_public_url, project_token_value)
+* setTimeout(timeout_milliseconds)
+* listStacks(filters, callback)
+* createStack(stack_name, options, callback)
+* updateStack(stack_name, stack_id, options, callback)
+* deleteStack(stack_name, stack_id, callback)
+
 
 ## Running Tests
 
